@@ -14,5 +14,6 @@ $("li").each(function() {
 		console.log(getid);
 		div.siblings().hide();
 		div.show();
+		return false;
   });
 }); 

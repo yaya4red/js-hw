@@ -5,6 +5,7 @@ $("li").each(function() {
 	li.on("click",function() {
 		console.log(getid);
 		div.siblings().removeClass("active");
-		div.addClass("active");		
+		div.addClass("active");
+		return false;		
   });
 }); 

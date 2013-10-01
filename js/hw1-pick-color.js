@@ -7,5 +7,6 @@ $("li").each(function() {
 		li.on("click",function(){
 			color.show();
 			color.siblings().hide();
+			return false;
 		});
 });
