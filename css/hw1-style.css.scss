@@ -1,0 +1,39 @@
+li {
+	display: inline;
+}
+
+.block {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.btn.btn-lg > a{
+	color: #fff;
+}
+
+.text-center {
+	text-align: center;
+	padding-top: 25px;
+	height: 120px;
+}
+
+.red {
+	background-color: #d2322d;
+	height: 120px;
+	color: #fff;
+}
+
+.blue {
+	background-color: #39b3d7;
+	height: 120px;
+	color: #fff;	
+}
+
+.green {
+	background-color: #47a447;
+	height: 120px;
+	color: #fff;
+}
