@@ -1,0 +1,27 @@
+.collapse {
+	width: 800px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2px;
+	padding: 15px;
+}
+
+.collapse.head {
+	font-size: 20px;
+	border: 1px solid;
+	border-color: #28C7B8; 
+}
+
+.collapse.head a {
+	text-decoration: none;
+	color: #21a599;
+}
+
+.collapse.head a:hover {
+	color: #f6fe2d;
+}
+
+.collapse.cotent {
+	color: #515151;
+}
