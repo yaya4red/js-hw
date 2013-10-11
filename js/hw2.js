@@ -19,3 +19,26 @@ $(".collapse.head").each(function() {
 	  return false;
 	});
 });
+
+$(".space.head").each(function() {
+	var space = $(this);
+	var spaceID = space.find("a").attr("href");
+	var fade = $(spaceID);
+	fade.hide();
+	$("#fade1").show();
+	space.on("click",function() {
+		var unit = space.parents(".unit");
+		if(unit.hasClass("active")){
+			unit.removeClass("active");
+			fade.fadeOut("slow");
+		} else {
+			unit.addClass("active");
+			fade.fadeIn("slow");
+		}
+		unit.siblings().each(function(){
+			other_unit = $(this);
+			other_unit.find(".space.content").fadeOut("slow");
+		})
+		return false;
+	});
+})

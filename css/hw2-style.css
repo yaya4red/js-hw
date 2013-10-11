@@ -25,3 +25,31 @@
 .collapse.content {
 	color: #515151;
 }
+
+.space {
+	width: 800px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2px;
+	padding: 15px;	
+}
+
+.space.head {
+	font-size: 20px;
+	border: 1px solid;
+	border-color: #ff0f9e; 
+}
+
+.space.head a {
+	text-decoration: none;
+	color: #ff0f9e;
+}
+
+.space.head a:hover {
+	color: #05ff85;
+}
+
+.space.content {
+	color: #474747;
+}
