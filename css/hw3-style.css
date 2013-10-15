@@ -32,6 +32,7 @@ li {
 }
 
 .item {
+	position: relative;
 	margin-left: -20px;
 	padding-top: 5px;
 	padding-bottom: 10px;	
@@ -45,3 +46,8 @@ li {
 	margin-left: -30px;	
 }
 
+.son-menu.list-bg {
+	position: absolute;
+	top: -5px;
+	left: 85px;
+}
