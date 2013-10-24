@@ -7,7 +7,7 @@ $(".momgroup").each(function() {
 			head.find("a").each(function() {
 				var a = $(this);
 				var getid = a.attr("href")
-				var push = $(getid);
+				var push = $(mom).find(getid);
 				push.hide();
 				head.on("click",function() {
 			  	var group = head.parents(".group");
