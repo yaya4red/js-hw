@@ -16,17 +16,17 @@ $(".group").each(function() {
 		}
 		return false;
 		});
-		$(".item").find("a").each(function() {
+		$("li.item").each(function() {
 			var li = $(this);
 			li.mouseenter(function(){
-				li.siblings(".son-menu").each(function() {
+				li.find("div.son-menu").each(function() {
 					var sonmenu = $(this);
 					sonmenu.show();
 				});
 				return false;
 			});
 			li.mouseleave(function(){
-				li.siblings(".son-menu").each(function() {
+				li.find("div.son-menu").each(function() {
 					var sonmenu = $(this);
 					sonmenu.hide();
 				});
